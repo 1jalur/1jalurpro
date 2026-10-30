@@ -1,0 +1,25 @@
+/* Kartu, banner, grafik batang dan donat */
+.g{display:grid;gap:14px;margin-bottom:14px}
+.g2{grid-template-columns:1fr 1fr}
+.g3{grid-template-columns:repeat(3,1fr)}
+.ban{border-radius:14px;padding:16px 18px;border:1px solid var(--bd)}
+.ban small{display:block;color:var(--mu)}
+.ban b{font-size:24px;display:block}
+.b1{background:#e8f0fe;color:#2556c4}
+.b2{background:#f1eafd;color:#6a35c9}
+@media(prefers-color-scheme:dark){.b1{background:#1b2a4d;color:#8fb0ff}.b2{background:#2b2146;color:#c3a4ff}}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:14px;padding:16px;display:flex;gap:14px;align-items:center}
+.card .ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;font-size:20px;flex:none}
+.card small{color:var(--mu);display:block}
+.card b{font-size:20px;display:block}
+.pn{background:var(--sf);border:1px solid var(--bd);border-radius:14px;padding:18px;display:block}
+.pn h3{margin:0 0 14px;font-size:15px}
+.bars{display:flex;align-items:flex-end;gap:10px;height:200px;border-bottom:1px solid var(--bd)}
+.bars div{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;font-size:11px;color:var(--mu)}
+.bars i{width:60%;max-width:36px;background:#6366f1;border-radius:5px 5px 0 0;display:block}
+.lab{display:flex;gap:10px;margin-top:6px}
+.lab span{flex:1;text-align:center;font-size:10px;color:var(--mu)}
+.dn{width:150px;height:150px;border-radius:50%;margin:0 auto 14px;position:relative}
+.dn:after{content:"";position:absolute;inset:26px;background:var(--sf);border-radius:50%}
+.lg{display:flex;justify-content:space-around;text-align:center;font-size:12px;color:var(--mu);flex-wrap:wrap;gap:8px}
+.lg b{display:block;font-size:18px;color:var(--tx)}

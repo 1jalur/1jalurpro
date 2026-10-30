@@ -1,0 +1,16 @@
+/* Timeline dan absensi: tabel kalender, legenda, warna sel */
+.gt table{min-width:0}
+.gc{width:26px;min-width:26px;height:28px;text-align:center;font-size:10px;font-weight:600;color:#fff;cursor:var(--cur,pointer);border:1px solid var(--sf);padding:0}
+.gt th{padding:4px 2px;text-align:center;font-size:10px}
+.gt th.m{text-align:left;padding-left:6px;border-left:1px solid var(--bd)}
+.st{position:sticky;left:0;background:var(--sf);z-index:1}
+.tdy{outline:2px solid #e5484d;outline-offset:-2px}
+.gp td{background:var(--ac2);font-weight:600;color:var(--ac);padding:6px 10px}
+.lgd{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.lgd span{font-size:11px;padding:3px 10px;border-radius:99px;color:#fff;cursor:pointer;border:2px solid transparent}
+.lgd span.on{border-color:var(--tx)}
+.gt{user-select:none}
+.ctr th,.ctr td{vertical-align:middle}
+.ctr td:nth-child(3),.ctr td:nth-child(5),.ctr td:nth-child(6),.ctr td:nth-child(7),.ctr th:nth-child(3),.ctr th:nth-child(5),.ctr th:nth-child(6),.ctr th:nth-child(7){text-align:center!important}
+.ctr td:nth-child(3) input,.ctr td:nth-child(5) input,.ctr td:nth-child(7) input{text-align:center!important}
+.tdh{background:#ff7a00;color:#fff;border-radius:6px;font-weight:700}
